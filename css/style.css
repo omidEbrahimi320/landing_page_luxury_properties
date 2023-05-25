@@ -1,0 +1,272 @@
+body {
+    margin: 0;
+    /* display: flex; */
+    /* justify-content: center; */
+    font-size: 14px;
+    font-family: Vazirmatn;
+    /* align-items: center; */
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    /* width: 100%; */
+    height: 100%;
+    background: rgb(95,158,246);
+    background: linear-gradient(315deg, rgba(95,158,246,1) 0%, rgba(192,218,255,1) 100%);
+    /* border-radius: 30px; */
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    padding: 45px 50px;
+    /* overflow: hidden; */
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* position: fixed; */
+    z-index: 100;
+}
+
+h1 {
+    margin: 0;
+}
+
+.logo {
+    width: 10%;
+    display: flex;
+    position: relative;
+}
+
+/*       navbar       */
+
+.navbar {
+    /* width: 40%; */
+    background-color: white;
+    padding: 25px 20px;
+    border-radius: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home,
+.properties,
+.service,
+.about,
+.contacts {
+    cursor: pointer;
+    padding: 0 30px;
+    font-weight: 500;
+}
+
+.home:hover,
+.properties:hover,
+.service:hover,
+.about:hover,
+.contacts:hover {
+    color: #3729ff;
+}
+
+.home {
+    color: #3729ff;
+}
+
+.account {
+    /* width: 10%; */
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: end;
+    font-weight: 500;
+    
+}
+
+.account svg {
+    margin: 0 3px 3px 0;
+}
+
+.main {
+    display: flex;
+    margin-top: 40px;
+}
+
+.information-site {
+    width: 40%;
+}
+.image {
+    width: 60%;
+}
+
+.title {
+    font-size: 60px;
+    /* font-weight: bold; */
+    display: block;
+    font-family: 'Aclonica';
+    margin-bottom: 13px;
+}
+
+.text {
+    /* width: 20%; */
+    margin-top: 300px;
+    font-size: 15px;
+}
+
+.catalog {
+    width: 33%;
+    border: none;
+    border-radius: 20px;
+    padding: 12px 0;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    margin-top: 35px;
+    cursor: pointer;
+    /* text-align: center  ; */
+}
+
+.image {
+    position: relative;
+}
+
+.image img {
+    width: 490px;
+    margin-top: -65px;
+    position: absolute;
+    right: -35px;
+}
+
+.first-circle {
+    background: rgb(41,130,255);
+    background: linear-gradient(0deg, rgba(41,130,255,1) 0%, rgba(198,222,255,1) 100%);
+    width: 250px;
+    height: 250px;
+    border-radius: 500px;
+    position: absolute;
+    right: -15px;
+    top: -65px;
+}
+
+.second-circle {
+    background: rgb(221,181,255);
+    background: linear-gradient(0deg, rgba(221,181,255,1) 0%, rgba(141,188,255,1) 100%);
+    width: 150px;
+    height: 150px;
+    border-radius: 500px;
+    position: absolute;
+    right: -75px;
+    top: 105px;
+}
+
+.third-circle {
+    background: rgb(221,181,255);
+    background: linear-gradient(0deg, rgba(221,181,255,1) 0%, rgba(185,214,255,1) 0%);
+    width: 120px;
+    height: 120px;
+    border-radius: 500px;
+    position: absolute;
+    right: 350px;
+    top: 200px;
+}
+
+.footter {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.background-foott {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+}
+
+.side-foott {
+    /* width: 80%; */
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 40px 30px;
+    border-radius: 500px;
+    position: fixed;
+    bottom: 31px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.box-svg {
+    width: 40px;
+    height: 40px;
+    border-radius: 200px;
+    background-color: #3729ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.all .box-svg {
+    background-color: #8db8b4;
+    color: #23534e;
+}
+
+.land-lots .box-svg {
+    background-color: #91ff8e;
+    color: #0d630a;
+}
+
+.office .box-svg {
+    background-color: #91ff8e;
+    color: #0d630a;
+}
+
+.store .box-svg {
+    background-color: #fdf1e7;
+    color: #909e0e;
+}
+
+.apartment .box-svg {
+    background-color: #ffd5f9;
+    color: #945327;
+}
+
+.villa .box-svg {
+    background-color: #ebe1ea;
+    color: #53234b;
+}
+
+.house .box-svg {
+    background-color: #e5e9f1;
+    color: #470339;
+}
+
+.all span,
+.land-lots span,
+.office span,
+.store span,
+.apartment span,
+.villa span,
+.house span {
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.all span {
+    color: #1fb5c0;
+}
+
+.all,
+.land-lots,
+.office,
+.store,
+.apartment,
+.villa,
+.house {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 55px;
+}
